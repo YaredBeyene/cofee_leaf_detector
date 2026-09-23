@@ -1,7 +1,7 @@
 name: coffee_leaf_app
 description: "Coffee Leaf Disease Detector Mobile Application"
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -12,6 +12,9 @@ dependencies:
   image_picker: ^1.1.2
   image: ^4.3.0
   tflite_flutter: ^0.12.1
+  shared_preferences: ^2.3.2
+  flutter_tts: ^4.2.2
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
